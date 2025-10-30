@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import rohanImage from "../assets/rohanmain.jpg";
 
 export const HeroSection = () => {
   return (
@@ -7,7 +8,7 @@ export const HeroSection = () => {
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
        <div className="w-[300px] h-[300px] rounded-full overflow-hidden">
-        <img src="./src/assets/rohanmain.jpg"  alt="Rohan"
+        <img src={rohanImage}  alt="Rohan"
     className="w-full h-full object-cover"/>
       </div>
       <div className="container max-w-4xl mx-auto text-center z-10">
